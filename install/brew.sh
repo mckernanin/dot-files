@@ -42,9 +42,15 @@ apps=(
   unar
   wget
   wifi-password
+  awscli
+  docker
+  docker-compose
+  composer
+  php
 )
 
 brew install "${apps[@]}"
+brew install yarn --without-node
 
 export DOTFILES_BREW_PREFIX_COREUTILS=`brew --prefix coreutils`
 set-config "DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_CACHE"
