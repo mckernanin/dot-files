@@ -14,7 +14,7 @@ apps=(
   dash2
   dropbox
   firefox
-  flux
+#   flux
   font-fira-code
   glimmerblocker
   google-chrome
@@ -22,12 +22,12 @@ apps=(
   hammerspoon
   kaleidoscope
   macdown
-  opera
-  screenflow
+#   opera
+#   screenflow
   slack
-  sourcetree
+#   sourcetree
   spotify
-  sublime-text
+#   sublime-texdt
   transmit
   virtualbox
   visual-studio-code
