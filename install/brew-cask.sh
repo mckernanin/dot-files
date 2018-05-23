@@ -32,6 +32,16 @@ apps=(
   slack
   harvest
   kap
+  1password
+  daisy-disk
+  dropbox
+  gitkraken
+  gitscout
+  hyper
+  mongodb-compass
+  now
+  sketch
+  trello
 )
 
 brew cask install "${apps[@]}"
