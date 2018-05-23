@@ -14,7 +14,6 @@ apps=(
   dash2
   dropbox
   firefox
-#   flux
   font-fira-code
   glimmerblocker
   google-chrome
@@ -22,16 +21,17 @@ apps=(
   hammerspoon
   kaleidoscope
   macdown
-#   opera
-#   screenflow
   slack
-#   sourcetree
   spotify
-#   sublime-texdt
   transmit
   virtualbox
   visual-studio-code
   vlc
+  sequel-pro
+  postman
+  slack
+  harvest
+  kap
 )
 
 brew cask install "${apps[@]}"
