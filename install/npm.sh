@@ -26,6 +26,8 @@ packages=(
   svgo
   tldr
   underscore-cli
+  fkill
+  speed-test
 )
 
 npm install -g "${packages[@]}"
